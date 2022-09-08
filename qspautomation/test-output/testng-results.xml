@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[login Page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[password text box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[password text box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[password text box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[create user]]>
+    </line>
+    <line>
+      <![CDATA[create reports]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10027" started-at="2022-08-28T09:44:29 IST" finished-at="2022-08-28T09:44:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10027" started-at="2022-08-28T09:44:29 IST" finished-at="2022-08-28T09:44:39 IST">
+      <class name="testNGPack.ActiTimeAssertion">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGPack.ActiTimeAssertion@4d41cee]" name="setUp" is-config="true" duration-ms="4200" started-at="2022-08-28T09:44:29 IST" finished-at="2022-08-28T09:44:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:testNGPack.ActiTimeAssertion@4d41cee]" name="f" duration-ms="4509" started-at="2022-08-28T09:44:33 IST" finished-at="2022-08-28T09:44:38 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [actiTime-Login] but found [actiTIME - Login],
+expected [actiTime-Enter Time-Track] but found [actiTIME - Enter Time-Track]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [actiTime-Login] but found [actiTIME - Login],
+expected [actiTime-Enter Time-Track] but found [actiTIME - Enter Time-Track]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testNGPack.ActiTimeAssertion.f(ActiTimeAssertion.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[login Page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[password text box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[password text box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[password text box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Home Page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[create user]]>
+            </line>
+            <line>
+              <![CDATA[create reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGPack.ActiTimeAssertion@4d41cee]" name="tearDown" is-config="true" duration-ms="1261" started-at="2022-08-28T09:44:38 IST" finished-at="2022-08-28T09:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGPack.ActiTimeAssertion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
